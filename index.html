@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Lala Restaurant</title>
+  </head>
+  <body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">PIATTO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+  
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./team.html" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Menu.html" class="nav-link">Menu</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="Contact" class="nav-link">Contact</a> -->
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-secondary btn-lg book btn btn-light btn-md "data-bs-toggle="modal"   data-bs-target="#Reserve">Book Now</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+   <!-- ShowCase -->
+   <section class="bg-dark text-light p-5  pt-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1><span class=  "text-warning fst-italic fw-bold  " >Piatto</span></h1>
+            <h4><span class= "fw-light text-break" >We know that dining should make you relax ,at ease and most of all enjoy. Here at Piatto, you can experience Luxurious fine dining youll remember like a whisp of gold dust on a magical night </span></h4>
+            <button class="btn btn-secondary btn-lg "data-bs-toggle="modal"   data-bs-target="#Reserve">Reserve Now</button>
+          </div class="col-sm-12" style="min-width: 66px" >
+          <img class="heroimage img-fluid w-50 min-width-250px p-2 pt-3 "src="./Image/hero.jpeg" alt="">
+        </div>
+      </div>
+   </section>
+    
+  
+   <!-- News Letter-->
+<section class="bg-light text-dark p-5">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h3 class="mb-3 mb-md-0">Sign Up For Our NewsLetter</h3>
+
+      <div class=" input-group newsletter">
+        <input type="text" class="form-control" placeholder="Enter Email" />
+        <button class="btn btn-secondary btn-lg" type="button" id="button-addon2">SignUp
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Boxes -->
+<div class="newscontainer p-5 ">
+  <div class=" container -3">
+    <div class="row text-center">
+      <div class="col-md d-flex flex-lg-row flex-sm-column bd-highlight mb-3">
+        <div class="card h-100" style="width: 18rem;">
+          <!-- <div class="card text-secondary bg-white" style="max-width: 18rem;"> -->
+          <div class="card-header">Down the Rabbit Hole</div>
+          <img src="./Image/down-rabbit-hole.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Experience our award winning dessert made from Dulce Diplomat Cream ,Pistachio Sponge,Lime Yoghurt, Chocolates and Vanilla caramel sauce. A mouth watering dessert that will surely paint a smile on your face .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md d-flex flex-lg-row flex-sm-column  bd-highlight mb-3">
+        <div class="card h-100" style="width: 18rem;" >
+          <!-- <div class="card text-secondary bg-white" style="max-width: 18rem;"> -->
+          <div class="card-header">White Noise</div>
+          <img src="./Image/whiite noise.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Mouth watering dessert made white chocolates, orange gelato and Yoghurt. Surely, this dish is aesthetically pleasing to the eyes and palate. Made from the highest grade ingredient   so every bite will make you forget even your name  </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md d-flex flex-lg-row flex-sm-column  bd-highlight mb-3">
+        <div class="card h-100" style="width: 18rem;" >
+          <!-- <div class="card text-secondary bg-white" style="max-width: 18rem;"> -->
+          <div class="card-header">Dinner With A View</div>
+          <img src="./Image/marina-views-rhodes-w1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Nab yourself a table on the spacious terrace and you'll get front-row seats to a stunning view of Eiffel Tower. Top that with one of our signature cocktails, and you've got yourself the perfect evening (or date) sorted.  </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md d-flex flex-lg-row flex-sm-column  bd-highlight mb-3">
+        <div class="card h-100" style="width: 18rem;" >
+          <!-- <div class="card text-secondary bg-white" style="max-width: 18rem;"> -->
+          <div class="card-header">Dinner With A View</div>
+          <img src="./Image/jumeirah-al-qasr-celeste-pool-lifestyle-5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">After enjoying our luxurious food, you can also relax and enjoy a sky clear water and golden sand beach. Trully a moment to remember  </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Carousel -->
+
+<div class="carouseldiv bg-secondary">
+  <div class="container pt-5 ">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="./Image/caro1.jpg" class="d-block h-100 w-100 object-fit-cover" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Image/caro2.jpg" class="d-block h-100 w-100 object-fit-cover " alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Image/caro3.jpg" class="d-block h-100 w-100 object-fit-cover" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Image/caro4.jpg" class="d-block h-100 w-100 object-fit-cover" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Image/salmon.jpg" class="d-block h-100 w-100 object-fit-cover" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div >
+    <figure class="text-center pt-5">
+      <blockquote class="blockquote text-light ">
+        <p>The art of dining well is no slight art, the pleasure not a slight pleasure; neither the greatest captains nor the greatest philosophers have disdained the use or science of eating well.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">Michel de Montaigne</cite>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
+<!-- Questions Accordion -->
+<section id="questions" class="pt-5 ">
+  <div>
+    <div class="container">
+      <div class="text-center mb-4 fw-bold fs-1">Frequently Asked Questions</div>
+    </div>
+    
+  <div class="row ">
+    <div class="containeraccordion d-flex flex-row col-6 " style="min-width: 370px;">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed accordion-button d-block text-center" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              Do you have vegetarian, vegan, gluten free options?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Piatto ensures that we provide a luxurious fine dining experience for your special love ones.Our menu contains a wide variety of dishes . We also have course for people who advocates green earth and wants a gluten free ingredient</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Do you take reservations?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We know how it is important to find the perfect place for your special moment, Piatto caters reservations and we have a different venue that will surely strike to your likings. To reserve you can click the "book now " button at the top right portion of the page </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Do you have rooms to accomodate should we reserve your beach side venue?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We have luxurious rooms and cabins you will surely enjoy should you decide to rest and relax with us after your fine dining experience. To know more about the rooms , you can send us a message </div>
+          </div>
+        </div>
+        
+      </div>
+    </div >
+
+    <div class="d-flex  flex-row   questions col-6 pb-lg-5" style="min-width: 370px;">
+      <img src="./Image/questions.jpg" alt="">
+
+
+    </div>
+</div>
+</section>
+
+
+ <!-- Footer   -->
+
+ <footer class="text-center text-white" style="background-color: #caced1;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer1.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer2.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer3.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer4.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer5.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="./Image/footer6.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="./index.html">PIATTO</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="Reserve" tabindex="-1" aria-labelledby="ReserveLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ready To Make Luxurious Dining experience </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill Out This Form to Reserve </p>
+        <form>
+          <div xclass="mb-3">
+            <label for="first-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" class="form-control" id="first-name">
+
+          </div>
+          <div xclass="mb-3">
+            <label for="first-name" class="col-form-label">
+              Email:
+            </label>
+            <input type="text" class="form-control" id="first-name">
+
+          </div>
+          <div xclass="mb-3">
+            <label for="first-name" class="col-form-label">
+              Phone:
+            </label>
+            <input type="text" class="form-control" id="first-name">
+
+          </div>
+
+        </form>
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

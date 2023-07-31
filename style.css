@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:768px) {
+    .newsletter {
+        width: 50px;
+    }
+    .heroimage {
+        width: 500px;
+        flex: left;
+
+    }
+  
+   
+}
+
+
+
+
+.newscontainer{
+    background-image: url("./Image/30080102_benner_12.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position:relative
+}
+
+
+.carousel-item{
+    height: 700px;
+}
+
+
+.carouseldiv {
+    background: url(./Image/black_background_carousel.jpg);
+    height: 1050px
+}
+
+
+
+.questions img{
+    height: 400px
+}
